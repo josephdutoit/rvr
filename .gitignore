@@ -1,0 +1,28 @@
+# Ignore build artifacts
+build/
+
+# Ignore installation files
+install/
+
+# Ignore log files
+log/
+
+# Ignore colcon-specific files
+.colcon_install_layout
+COLCON_IGNORE
+
+# Ignore ROS 2 setup files
+local_setup.*
+setup.*
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+.DS_Store
